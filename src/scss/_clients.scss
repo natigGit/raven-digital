@@ -1,0 +1,19 @@
+.clients {
+    padding: 65px 0;
+    background: #0A0F14;
+    &__body {
+    }
+
+    &__title {
+        margin-bottom: 25px;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__row-item {
+    }
+}

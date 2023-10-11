@@ -1,0 +1,48 @@
+.stat {
+    background: #2B61F7;
+    padding-top: 61px;
+    padding-bottom: 47px;
+
+    &__body {
+        padding: 0 70px;
+        display: flex;
+        align-items: center;
+
+        h3{
+            color: #FFF;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 143%; 
+            letter-spacing: 0.48px;
+            text-transform: uppercase;
+        }
+        p{
+            color: #8FC2FF;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 143%; 
+            letter-spacing: 0.24px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__comp {
+    }
+
+    &__line {
+        width: 0.5px;
+        height: 239px;
+        background: #ABC4E3;
+        margin-right: 68px;
+        margin-left: 88px;
+    }
+
+    &__row {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    &__row-item {
+    }
+}
